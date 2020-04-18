@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping With Mongoose</title>
+    <style>
+      body { background-color: rgb(27, 153, 170) }
+      #wrapper {
+        width: 1020px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20%;
+      }
+      #articles {
+        overflow: auto;
+        width: 50%;
+        height: 700px;
+      }
+      #notes {
+        float: right;
+        width: 50%;
+      }
+      textarea, input {
+        width: 100%;
+        background-color: rgb(27, 170, 27);
+      }
+      input {
+        height: 36px;
+        font-size: 28px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Indeed Articles</h1>
+      <h2><i>All that cool stuff you like</i></h2>
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="app.js"></script>
+  </body>
+</html>
